@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Nav from './Pages/Nav'
-import Footer from './Pages/Footer'
 import Products from './Pages/Products'
 import Cart from './Pages/Cart'
 import PagenotFound from './Pages/PagenotFound'
@@ -28,9 +27,6 @@ function App() {
 
         </Routes>
 
-        <div>
-          <Footer/>
-        </div>
 
     </BrowserRouter>
   )

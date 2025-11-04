@@ -9,7 +9,7 @@ const Nav = ({cart}) => {
              <Link to = "/"> <h1> Cartify </h1> </Link>
             </div>
             <div className='cart'>
-                <Link to = "Cart">  <h1> Cart :{cart.length} </h1> </Link>
+                <Link to = "Cart">  <h1> Cart :  {cart.length} </h1> </Link>
             </div>
         </div>
     );
